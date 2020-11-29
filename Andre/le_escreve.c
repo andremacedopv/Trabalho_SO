@@ -43,6 +43,10 @@ void v_sem(int sem_id) {
 }
 
 // Gerador de números aleatórios
+/* Foi optado por, ao invés de enviar os números em ordem de 1 a 20,
+   envia-los em ordem aleatória, para melhor demonstrar a entrega
+   das mensagens.
+*/
 void get_random_array(int n[]) {
   // Get rand with time
   srand((unsigned) time(NULL));

@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
     if(pid == 0) {
       printf("Sou o processo filho com pid = %d\n", getpid());
       sleep(30);
-      exit(7);
+      exit(0);
     }
     pid = 0;
   }
